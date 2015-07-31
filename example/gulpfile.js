@@ -6,7 +6,7 @@ gulp.task('del', function() {
 });
 
 gulp.task('default', ['del'], function() {
-    gulp.src('../example/**/*.xlsx').pipe(excel2Html({
+    gulp.src('../example/src/edm.xlsx').pipe(excel2Html({
         resultFile: 'result.html',
         tmplFile: 'src/edm_template.html',
         dataHandle: function(excel) {
