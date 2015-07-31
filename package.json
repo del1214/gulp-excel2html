@@ -24,6 +24,14 @@
     "url": "https://github.com/del1214/gulp-excel2html/issues"
   },
   "homepage": "https://github.com/del1214/gulp-excel2html#readme",
+  "Dependencies": {
+    "extend": "^3.0.0",
+    "gulp-util": "^3.0.6",
+    "hogan.js": "^3.0.2",
+    "node-xlsx": "^0.6.0",
+    "through2": "^2.0.0"
+  }
+
   "devDependencies": {
     "del": "^1.2.0",
     "extend": "^3.0.0",
