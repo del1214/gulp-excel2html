@@ -1,5 +1,5 @@
-# gulp-excel2html
-[![npm version](https://badge.fury.io/js/gulp-excel2html.svg)](https://badge.fury.io/for/js/gulp-excel2html)
+# gulp-excel2html[![npm version](https://badge.fury.io/js/gulp-excel2html.svg)](https://badge.fury.io/for/js/gulp-excel2html)
+[![Build Status](https://travis-ci.org/YusukeHirao/gulp-xlsx2html.svg?branch=master)](https://travis-ci.org/YusukeHirao/gulp-xlsx2html) [![Dependency Status](https://david-dm.org/yusukehirao/gulp-xlsx2html.svg)](https://david-dm.org/yusukehirao/gulp-xlsx2html) [![devDependency Status](https://david-dm.org/yusukehirao/gulp-xlsx2html/dev-status.svg)](https://david-dm.org/yusukehirao/gulp-xlsx2html#info=devDependencies)
 ===
 gulp-excel2html is a [Gulp](http://gulpjs.com/) plugin to convert excel(xlsx) file to HTML.
 
