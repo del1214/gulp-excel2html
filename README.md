@@ -1,7 +1,8 @@
 # gulp-excel2html
+[![npm version](https://badge.fury.io/js/gulp-excel2html.svg)](https://badge.fury.io/for/js/gulp-excel2html)
 ===
+gulp-excel2html is a [Gulp](http://gulpjs.com/) plugin to convert excel(xlsx) file to HTML.
 
-gulp-excel2html is a Gulp plugin to convert excel(xlsx) file to HTML.
 
 ##Install
 ```bash
@@ -37,4 +38,4 @@ gulp.src('foo.xlsx')
 | ------------ | ------------- | ------------ | ------------ | ------------ |
 | **tmplFile** | ```string```        | Yes          | None         | The template file path of hogan.js |
 | **resultFile** | ```string```  | Not | ```result.html``` | The out put html file name |
-| **dataHandle** | ```Function```  | Not | Full excel data of Array | handle the data parse from xlsx file and return object for hogan.js to render html |
+| **dataHandle** | ```Function```  | Not | Full excel data of Array | handle the data parse from xlsx file and return object for [hogan.js](http://twitter.github.io/hogan.js/) to render html |
