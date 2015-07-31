@@ -26,7 +26,6 @@ gulp.src('foo.xlsx')
 ```
 
 ##API
-===
 ### excel2html(options)
 ####options
 * Type:```Object```
