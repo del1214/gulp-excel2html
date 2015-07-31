@@ -30,6 +30,7 @@ var excel2Html = function(options) {
             this.emit('error', new gutil.PluginError(PLUGIN_NAME, 'Streaming not supported'));
             return callback();
         }
+
         var excel = xlsx.parse(file.contents);
         var templateObj = null;
         if (defaults.dataHandle) {
@@ -46,7 +47,6 @@ var excel2Html = function(options) {
     }, function(callback) {
         callback();
     });
-
     // returning the file stream
     return stream;
 };
