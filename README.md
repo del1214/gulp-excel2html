@@ -4,12 +4,12 @@
 gulp-excel2html is a Gulp plugin to convert excel(xlsx) file to HTML.
 
 ##Install
-```
+```bash
 npm install --save-dev gulp-excel2html
 ```
 
 ##Usage
-```
+```js
 var excel2html = require('gulp-excel2html');
 
 gulp.src('foo.xlsx')
