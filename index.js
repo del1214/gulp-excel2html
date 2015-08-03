@@ -6,7 +6,6 @@ var gutil = require('gulp-util'),
     fs = require('fs'), //fs
     path = require('path'), //path
     extend = require('extend'); //extend
-
 var PLUGIN_NAME = 'excel2Html'; //plugin name
 
 var excel2Html = function(options) {
